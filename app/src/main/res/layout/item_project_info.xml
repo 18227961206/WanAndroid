@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:ignore="DisableBaselineAlignment,RtlHardcoded,RtlSymmetry,UselessParent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.45">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/default_project_img"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.6"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="一个模仿企鹅 FM 界面的 Android 应用;喜马拉雅Kotlin。完全使用 Kotlin 开发。"
+                android:textColor="@color/color06"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,NestedWeights,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="一个模仿企鹅 FM 界面的Android 应用;喜马拉雅Kotlin。完全使用 Kotlin 开发。有声资源和播放器由喜马拉雅 SDK 提供。 主要功能： 1,在线播放专辑点播 2,在线播放国家/省/市广播电台 3,最近收听 4,搜索节目/专辑/广播（包括热搜词）"
+                android:textColor="@color/color05"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_person"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/shareUser"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:paddingLeft="3dp"
+                    android:text="gs666"
+                    android:textColor="@color/color11"
+                    android:textSize="13sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.4"
+                    android:id="@+id/collection"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/ic_praise"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/niceDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="2019-09-10 00:05"
+                    android:textColor="@color/color11"
+                    android:textSize="13sp"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:background="@color/colorItem" />
+
+</LinearLayout>

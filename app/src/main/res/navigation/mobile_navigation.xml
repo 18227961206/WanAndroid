@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.wanandroid.ui.home.HomeFragment"
+        android:label="@string/navigation_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_square"
+        android:name="com.example.wanandroid.ui.square.SquareFragment"
+        android:label="@string/navigation_square"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.wanandroid.ui.officialAccounts.OfficialAccountsFragment"
+        android:label="@string/navigation_official_accounts"
+        tools:layout="@layout/fragment_official_accounts" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.wanandroid.ui.system.SystemFragment"
+        android:label="@string/navigation_system"
+        tools:layout="@layout/fragment_system" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.wanandroid.ui.project.ProjectFragment"
+        android:label="@string/navigation_project"
+        tools:layout="@layout/fragment_project" />
+
+</navigation>

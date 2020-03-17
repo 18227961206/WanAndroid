@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.me.MyAddShareActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/goBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_go_back"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="分享文章"
+            android:textColor="@color/color01"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="分享"
+            android:textColor="@color/color01"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="文章标题"
+                    android:textColor="@color/color05"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="文章的标题,100字以内"
+                    android:maxLength="100"
+                    android:maxLines="10"
+                    android:minLines="3"
+                    android:textColorHint="@color/color11"
+                    android:textSize="16sp"
+                    tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="文章链接"
+                    android:textColor="@color/color05"
+                    android:textSize="14sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="例如: https://www.wanandroid.com"
+                    android:maxLength="100"
+                    android:maxLines="3"
+                    android:textColorHint="@color/color11"
+                    android:textSize="16sp"
+                    tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="1. 只要是任何好文都可以分享哈,并不一定要是原创!投递的文章会进入广场Tab;"
+                android:textColor="@color/color11"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="2. CSDN,掘金,简书等官方博客站点会直接通过,不需要审核;"
+                android:textColor="@color/color11"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="3.其他个人站点会进入审核阶段,不要投递任何无效链接,测试的请尽快删除,否则可能会对你的账号产生一定影响;"
+                android:textColor="@color/color11"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="4.目前处于测试阶段,如果你发现500等错误,可以向我提交日志,让我们一起使网站变得更好。"
+                android:textColor="@color/color11"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="5.由于本站只有我一个人开发与维护,会尽力保证24小时内审核,当然有可能哪天太累,会延期,请保持佛系..."
+                android:textColor="@color/color11"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

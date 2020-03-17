@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/exchange_one"
+        android:checked="true"
+        android:orderInCategory="10"
+        android:title="我只用这一个"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/exchange_two"
+        android:orderInCategory="20"
+        android:title="工作"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/exchange_three"
+        android:orderInCategory="30"
+        android:title="学习"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/exchange_four"
+        android:orderInCategory="30"
+        android:title="生活"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+</menu>

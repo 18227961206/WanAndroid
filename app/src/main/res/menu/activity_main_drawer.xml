@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_integral"
+            android:title="我的积分"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ic_menu_praise"
+            android:title="我的收藏"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ic_menu_share"
+            android:title="我的分享"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ic_question_and_answer"
+            android:title="每日一问"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ic_menu_todo"
+            android:title="TODO"
+            tools:ignore="HardcodedText" />
+        <item
+            android:icon="@drawable/ic_menu_settings"
+            android:title="系统设置"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_menu_exit"
+            android:title="退出登录"
+            tools:ignore="HardcodedText" />
+    </group>
+
+</menu>

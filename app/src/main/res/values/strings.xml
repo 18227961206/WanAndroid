@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+    <string name="app_names">玩Android</string>
+    <!-- navigation -->
+    <string name="navigation_home">首页</string>
+    <string name="navigation_square">广场</string>
+    <string name="navigation_official_accounts">公众号</string>
+    <string name="navigation_system">体系</string>
+    <string name="navigation_project">项目</string>
+    <!-- The author -->
+    <string name="author">小天狼星</string>
+    <string name="title">玩Android开放API —— 一起来做个APP吧</string>
+    <string name="copyright">© 2020 小天狼星版权所有</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/nav_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/nav_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="@color/nav"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <!--&lt;!&ndash; 状态栏 &ndash;&gt;
+        <item name="android:statusBarColor" tools:ignore="DuplicateDefinition,NewApi">@color/colorPrimary</item>
+        &lt;!&ndash; 虚拟导航栏 &ndash;&gt;
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/colorPrimary</item>-->
+    </style>
+
+    <!-- 配置启动页全屏和解决启动时闪黑屏的问题 -->
+    <style name="Theme.StartPage" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- SystemFragment导航字体大小 -->
+    <style name="SystemTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
