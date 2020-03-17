@@ -15,3 +15,6 @@ WanAndroid 是根据鸿神大神提供的WanAndroid开放Api来制作的个人Ap
 * 文章详情: 详情中收藏 / 分享 / 浏览器打开
 * 个人信息: 名称 / 积分 / 头像
 * 全局修改列表的加载动画
+
+## APK下载安装
+* 点击下载安装[WanAndroid.apk](http://106.52.3.235/WanAndroid/index.html)
