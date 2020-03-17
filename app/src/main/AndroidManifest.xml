@@ -59,7 +59,6 @@
         <activity android:name=".ui.system.SystemOneInfoActivity" />
         <activity android:name=".ui.me.QuestionAndAnswerActivity" />
         <activity android:name=".ui.me.MyAddShareActivity" />
-        <activity android:name=".EgActivity"/>
     </application>
 
 </manifest>
