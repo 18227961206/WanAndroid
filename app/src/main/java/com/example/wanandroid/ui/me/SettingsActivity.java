@@ -33,6 +33,7 @@ public class SettingsActivity extends AppCompatActivity {
     private LinearLayout website;
     private LinearLayout sourceCode;
     private LinearLayout copyright;
+    private LinearLayout app_share;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -135,9 +136,22 @@ public class SettingsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SettingsActivity.this, DetailsActivity.class);
-                intent.putExtra("title", "WanAndroid——每日推荐优质文章");
-                intent.putExtra("link", "https://www.wanandroid.com/");
+                intent.putExtra("title", "WanAndroid个人项目");
+                intent.putExtra("link", "https://github.com/18227961206/WanAndroid");
                 startActivity(intent);
+            }
+        });
+
+        // 分享app
+        app_share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 调用系统分享功能分享文章
+                Intent shareIntent = new Intent();
+                shareIntent.setAction(Intent.ACTION_SEND);
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "玩Android分享【WanAndroid下载】: http://106.52.3.235/WanAndroid/index.html");
+                shareIntent.setType("text/plain");
+                startActivity(Intent.createChooser(shareIntent, "分享到"));
             }
         });
 
@@ -173,6 +187,7 @@ public class SettingsActivity extends AppCompatActivity {
         website = (LinearLayout) findViewById(R.id.website);
         sourceCode = (LinearLayout) findViewById(R.id.sourceCode);
         copyright = (LinearLayout) findViewById(R.id.copyright);
+        app_share = (LinearLayout) findViewById(R.id.app_share);
         // 读取缓存
         Cache();
     }

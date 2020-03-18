@@ -430,7 +430,47 @@
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:gravity="center_vertical"
-                            android:text="https://www.wanandroid.com"
+                            android:text="https://github.com/18227961206/WanAndroid"
+                            android:textColor="@color/color09"
+                            android:textSize="14sp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/app_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    tools:ignore="DisableBaselineAlignment">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="分享给好友"
+                            android:textColor="@color/color05"
+                            android:textSize="16sp"
+                            tools:ignore="HardcodedText,NestedWeights" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="http://106.52.3.235/WanAndroid/index.html"
                             android:textColor="@color/color09"
                             android:textSize="14sp"
                             tools:ignore="HardcodedText" />
