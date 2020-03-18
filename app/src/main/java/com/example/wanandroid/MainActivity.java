@@ -5,18 +5,14 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.example.wanandroid.ui.adapter.PublicAdapter;
 import com.example.wanandroid.ui.adapter.TabFragmentPagerAdapter;
 import com.example.wanandroid.ui.bean.StateBean;
 import com.example.wanandroid.ui.bean.UserInfoBean;
@@ -34,7 +30,6 @@ import com.example.wanandroid.ui.network.OkHttpRequest;
 import com.example.wanandroid.ui.network.RequestURL;
 import com.example.wanandroid.ui.officialAccounts.OfficialAccountsFragment;
 import com.example.wanandroid.ui.project.ProjectFragment;
-import com.example.wanandroid.ui.publicActivity.DetailsActivity;
 import com.example.wanandroid.ui.search.SearchActivity;
 import com.example.wanandroid.ui.square.SquareFragment;
 import com.example.wanandroid.ui.system.SystemFragment;
@@ -67,7 +62,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.view.Window;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -116,8 +110,6 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.ic_project_selected
     };
 
-    private PublicAdapter publicAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -129,9 +121,6 @@ public class MainActivity extends AppCompatActivity {
         /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setNavigationBarColor(MainActivity.this.getResources().getColor(R.color.colorPrimary));
         }*/
-        // 注册登录广播
-       /* IntentFilter filter = new IntentFilter(LoginActivity.action);
-        MainActivity.this.registerReceiver(broadcastReceiver, filter);*/
 
         // 打开侧边栏
         appMore.setOnClickListener(new View.OnClickListener() {
@@ -238,12 +227,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    /*@Override
-    protected void onResume() {
-        super.onResume();
-        MyTODOActivity.mIndex = 0;
-    }*/
-
     private void initView() {
         // 导航
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -279,21 +262,6 @@ public class MainActivity extends AppCompatActivity {
             headPortrait.setImageBitmap(StringAndBitmap.stringToBitmap(MainActivity.this));
         }
     }
-
-    /*BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
-        @SuppressLint("NewApi")
-        @Override
-        public void onReceive(Context context, final Intent intent) {
-            // TODO Auto-generated method stub
-            // 登录成功后的操作
-            loginLayout.setVisibility(View.GONE);
-            successful_layout.setVisibility(View.VISIBLE);
-            menu.findItem(R.id.exit).setVisible(true);
-            name.setText(sp.getSharedPreference("username", "").toString());
-            // 个人积分
-            Integral();
-        }
-    };*/
 
     /**
      * Fragment与ViewPager适配
