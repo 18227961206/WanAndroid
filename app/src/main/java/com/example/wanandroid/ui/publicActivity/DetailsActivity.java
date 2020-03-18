@@ -73,7 +73,7 @@ public class DetailsActivity extends AppCompatActivity {
             }
         });
         //设置超时
-       /* handler.postDelayed(runnable = new Runnable() {
+        handler.postDelayed(runnable = new Runnable() {
             @Override
             public void run() {
                 if (progressDialog.isShowing()) {
@@ -81,7 +81,7 @@ public class DetailsActivity extends AppCompatActivity {
                     MyToast.myToast(DetailsActivity.this, "连接超时");
                 }
             }
-        }, 15000);*/
+        }, 15000);
 
         goBack.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("Assert")
