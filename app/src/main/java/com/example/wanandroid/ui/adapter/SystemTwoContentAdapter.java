@@ -71,7 +71,7 @@ public class SystemTwoContentAdapter extends BaseAdapter {
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
                 Intent intent = new Intent(mContext, DetailsActivity.class);
                 intent.putExtra("title", systemList.get(position).getArticles().get(i).getTitle());
-                intent.putExtra("id", systemList.get(position).getArticles().get(i).getLink());
+                intent.putExtra("link", systemList.get(position).getArticles().get(i).getLink());
                 intent.putExtra("id", systemList.get(position).getArticles().get(i).getId());
                 mContext.startActivity(intent);
             }
