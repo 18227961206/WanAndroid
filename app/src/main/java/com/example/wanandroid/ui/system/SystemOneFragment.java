@@ -26,6 +26,15 @@ import com.google.gson.Gson;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemOneFragment
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:37
+ * @Description: 体系
+ * @version: 1.1.5
+ */
+
 public class SystemOneFragment extends Fragment {
 
     private ListView listViewTitle;

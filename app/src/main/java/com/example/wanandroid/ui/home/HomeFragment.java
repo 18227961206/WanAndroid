@@ -48,6 +48,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: HomeFragment
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:50
+ * @Description: 首页
+ * @version: 1.1.5
+ */
+
 public class HomeFragment extends Fragment {
 
     private static final String TAG = "HomeFragment";

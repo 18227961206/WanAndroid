@@ -23,6 +23,15 @@ import com.google.gson.Gson;
 
 import java.io.IOException;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MyAddShareActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:47
+ * @Description: 我的分享中添加分享
+ * @version: 1.1.5
+ */
+
 public class MyAddShareActivity extends AppCompatActivity {
 
     private ImageView goBack;

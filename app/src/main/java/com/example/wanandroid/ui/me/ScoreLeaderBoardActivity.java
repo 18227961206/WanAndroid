@@ -26,6 +26,15 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: ScoreLeaderBoardActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:50
+ * @Description: 积分排行榜
+ * @version: 1.1.5
+ */
+
 public class ScoreLeaderBoardActivity extends AppCompatActivity {
 
     private RefreshLayout refreshLayout;

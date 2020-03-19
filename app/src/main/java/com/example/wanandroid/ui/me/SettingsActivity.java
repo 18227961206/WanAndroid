@@ -19,6 +19,15 @@ import com.example.wanandroid.ui.publicActivity.DetailsActivity;
 import com.example.wanandroid.ui.tool.DataCleanManager;
 import com.example.wanandroid.ui.tool.MyToast;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SettingsActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:50
+ * @Description: 系统设置
+ * @version: 1.1.5
+ */
+
 public class SettingsActivity extends AppCompatActivity {
 
     private ImageView goBack;

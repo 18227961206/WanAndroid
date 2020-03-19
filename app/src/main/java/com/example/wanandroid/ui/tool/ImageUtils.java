@@ -13,6 +13,15 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: ImageUtils
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:33
+ * @Description: 图片处理
+ * @version: 1.1.5
+ */
+
 public class ImageUtils {
     /**
      * Save image to the SD card

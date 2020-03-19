@@ -12,6 +12,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.wanandroid.R;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MyTODOActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:48
+ * @Description: 我的TODO
+ * @version: 1.1.5
+ */
+
 public class MyTODOActivity extends AppCompatActivity {
 
     private ImageView goBack;

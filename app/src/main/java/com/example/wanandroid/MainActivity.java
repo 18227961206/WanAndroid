@@ -73,6 +73,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MainActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:29
+ * @Description:
+ * @version: 1.1.5
+ */
+
 public class MainActivity extends AppCompatActivity {
     // 导航
     private DrawerLayout drawerLayout;

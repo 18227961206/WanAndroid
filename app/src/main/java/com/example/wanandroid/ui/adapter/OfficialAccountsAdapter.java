@@ -15,6 +15,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: OfficialAccountsAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:58
+ * @Description: 公众号数据适配
+ * @version: 1.1.5
+ */
+
 public class OfficialAccountsAdapter extends BaseAdapter {
 
     private List<OfficialAccountsBean.DataBean> officialAccountsList;

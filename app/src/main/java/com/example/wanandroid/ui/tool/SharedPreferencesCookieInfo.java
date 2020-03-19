@@ -6,6 +6,15 @@ import android.content.SharedPreferences;
 
 import java.util.Map;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SharedPreferencesCookieInfo
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:35
+ * @Description: 全局SharedPreferences存储
+ * @version: 1.1.5
+ */
+
 public class SharedPreferencesCookieInfo {
 
     private SharedPreferences sharedPreferences;

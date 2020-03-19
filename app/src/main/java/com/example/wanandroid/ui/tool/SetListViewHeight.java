@@ -10,14 +10,22 @@ import android.widget.ListView;
 import androidx.annotation.RequiresApi;
 
 /**
- * 针对ScrollView与ListView嵌套显示与滑动问题进行处理
- * 对ListView高度重新计算
- * 针对ListView与GridView嵌套显示与滑动问题进行处理
- * 对GridView高度重新计算
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SetListViewHeight
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:33
+ * @Description: 对ListView与GridView高度重新计算
+ * @version: 1.1.5
  */
 
 public class SetListViewHeight {
-
+    /**
+     * 针对ScrollView与ListView嵌套显示与滑动问题进行处理
+     * 对ListView高度重新计算
+     *
+     * @param listView
+     * @param count
+     */
     public static void setListViewHeight(ListView listView, int count) {
         // 获取ListView对应的Adapter
         ListAdapter listAdapter = listView.getAdapter();
@@ -39,6 +47,12 @@ public class SetListViewHeight {
         listView.setLayoutParams(params);
     }
 
+    /**
+     * 针对ListView与GridView嵌套显示与滑动问题进行处理
+     * 对ListView高度重新计算
+     *
+     * @param gridView
+     */
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public static void setGridViewHeight(GridView gridView) {
         // 获取GridView对应的Adapter

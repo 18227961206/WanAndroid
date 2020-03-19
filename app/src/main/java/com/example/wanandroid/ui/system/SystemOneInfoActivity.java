@@ -36,6 +36,15 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemOneInfoActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:37
+ * @Description: 体系详情
+ * @version: 1.1.5
+ */
+
 public class SystemOneInfoActivity extends AppCompatActivity {
 
     private ImageView goBack;

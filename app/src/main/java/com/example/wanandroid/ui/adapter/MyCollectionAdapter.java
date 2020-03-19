@@ -27,6 +27,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MyCollectionAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:57
+ * @Description: 我的收藏数据适配
+ * @version: 1.1.5
+ */
+
 public class MyCollectionAdapter extends BaseAdapter {
 
     private List<MyCollectionBean.DataBean.DatasBean> dataList;

@@ -25,6 +25,15 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: TheLogin
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:46
+ * @Description: 登录请求
+ * @version: 1.1.5
+ */
+
 public class TheLogin {
     private static Handler mHandler = new Handler(Looper.getMainLooper());
     public static OkHttpClient okHttpClient = new OkHttpClient.Builder()

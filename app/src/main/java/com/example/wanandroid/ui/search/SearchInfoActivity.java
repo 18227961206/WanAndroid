@@ -32,6 +32,15 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SearchInfoActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:39
+ * @Description: 搜索详情
+ * @version: 1.1.5
+ */
+
 public class SearchInfoActivity extends AppCompatActivity {
 
     private ImageView goBack;

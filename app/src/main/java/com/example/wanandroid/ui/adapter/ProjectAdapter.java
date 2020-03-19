@@ -15,6 +15,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: ProjectAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:58
+ * @Description: 项目数据适配
+ * @version: 1.1.5
+ */
+
 public class ProjectAdapter extends BaseAdapter {
 
     private List<ProjectBean.DataBean> classificationBeanList;

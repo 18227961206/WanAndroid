@@ -1,5 +1,14 @@
 package com.example.wanandroid.ui.network;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: RequestURL
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:45
+ * @Description: 全局baseurl数据请求接口
+ * @version: 1.1.5
+ */
+
 public class RequestURL {
 
     /**

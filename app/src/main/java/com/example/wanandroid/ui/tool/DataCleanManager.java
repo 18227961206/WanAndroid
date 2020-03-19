@@ -7,8 +7,14 @@ import java.io.File;
 import java.math.BigDecimal;
 
 /**
- * 本应用数据清除管理器
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: DataCleanManager
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:31
+ * @Description: 设置中清除缓存功能
+ * @version: 1.1.5
  */
+
 public class DataCleanManager {
     /**
      * 获取全部缓存

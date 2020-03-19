@@ -6,7 +6,12 @@ import android.content.pm.PackageManager;
 import android.os.Environment;
 
 /**
- * 版本更新
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: Version
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:36
+ * @Description: 版本更新
+ * @version: 1.1.5
  */
 
 public class Version {

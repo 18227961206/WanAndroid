@@ -38,6 +38,15 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SearchActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:39
+ * @Description: 搜索
+ * @version: 1.1.5
+ */
+
 public class SearchActivity extends AppCompatActivity {
 
     private ImageView goBack;

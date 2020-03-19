@@ -24,6 +24,15 @@ import com.google.gson.Gson;
 
 import java.io.IOException;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: RegisteredActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:49
+ * @Description: 注册
+ * @version: 1.1.5
+ */
+
 public class RegisteredActivity extends AppCompatActivity {
 
     private ImageView goBack;

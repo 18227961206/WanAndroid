@@ -4,6 +4,15 @@ import okhttp3.FormBody;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: OkHttpRequest
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:44
+ * @Description: Okhttp请求方式
+ * @version: 1.1.5
+ */
+
 public class OkHttpRequest {
 
     /**

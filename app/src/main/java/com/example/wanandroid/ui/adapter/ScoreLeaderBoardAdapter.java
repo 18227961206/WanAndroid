@@ -12,6 +12,15 @@ import com.example.wanandroid.ui.bean.ScoreLeaderBoardBean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: ScoreLeaderBoardAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:59
+ * @Description: 积分排行榜数据适配
+ * @version: 1.1.5
+ */
+
 public class ScoreLeaderBoardAdapter extends BaseAdapter {
 
     private Context mContext;

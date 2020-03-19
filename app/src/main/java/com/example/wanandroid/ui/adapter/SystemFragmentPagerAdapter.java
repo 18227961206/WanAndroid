@@ -10,6 +10,15 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemFragmentPagerAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:59
+ * @Description: 体系Fragment适配
+ * @version: 1.1.5
+ */
+
 public class SystemFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private static String[] TAB_TITLE = new String[]{"体系", "导航"};

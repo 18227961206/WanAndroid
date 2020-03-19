@@ -12,6 +12,15 @@ import com.example.wanandroid.ui.bean.SystemTwoBean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemTwoContentItemAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 11:02
+ * @Description: 导航右侧数据适配
+ * @version: 1.1.5
+ */
+
 public class SystemTwoContentItemAdapter extends BaseAdapter {
 
     private List<SystemTwoBean.DataBean.ArticlesBean> systemList;

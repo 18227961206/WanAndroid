@@ -1,5 +1,14 @@
 package com.example.wanandroid.ui.bean;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: StateBean
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:55
+ * @Description: 全局状态数据
+ * @version: 1.1.5
+ */
+
 public class StateBean {
 
     /**

@@ -5,6 +5,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: StartPageActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:29
+ * @Description: 启动页
+ * @version: 1.1.5
+ */
+
 public class StartPageActivity extends Activity {
 
     private Handler handler;

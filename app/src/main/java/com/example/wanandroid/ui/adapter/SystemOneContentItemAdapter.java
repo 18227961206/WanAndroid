@@ -11,6 +11,15 @@ import com.example.wanandroid.ui.bean.SystemOneBean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemOneContentItemAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 11:00
+ * @Description: 体系右侧数据适配
+ * @version: 1.1.5
+ */
+
 public class SystemOneContentItemAdapter extends BaseAdapter {
 
     private List<SystemOneBean.DataBean.ChildrenBean> systemList;

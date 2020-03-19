@@ -29,6 +29,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: TopAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 11:03
+ * @Description: 置顶文章数据适配
+ * @version: 1.1.5
+ */
+
 public class TopAdapter extends BaseAdapter {
 
     private Context mContext;

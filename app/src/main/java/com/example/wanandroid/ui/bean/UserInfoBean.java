@@ -1,5 +1,14 @@
 package com.example.wanandroid.ui.bean;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: UserInfoBean
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:56
+ * @Description: 个人信息数据
+ * @version: 1.1.5
+ */
+
 public class UserInfoBean {
 
     /**

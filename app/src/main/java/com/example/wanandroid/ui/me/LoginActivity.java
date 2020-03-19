@@ -35,6 +35,15 @@ import okhttp3.Headers;
 import okhttp3.HttpUrl;
 import okhttp3.Response;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: LoginActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:47
+ * @Description: 登录
+ * @version: 1.1.5
+ */
+
 public class LoginActivity extends AppCompatActivity {
 
     private ImageView goBack;

@@ -2,6 +2,15 @@ package com.example.wanandroid.ui.bean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: BannerBean
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:52
+ * @Description: 首页Banner数据
+ * @version: 1.1.5
+ */
+
 public class BannerBean {
 
     /**

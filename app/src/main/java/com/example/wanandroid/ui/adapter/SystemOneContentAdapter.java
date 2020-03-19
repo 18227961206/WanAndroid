@@ -19,6 +19,15 @@ import com.example.wanandroid.ui.tool.SetListViewHeight;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemOneContentAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 11:00
+ * @Description: 系统右侧数据适配
+ * @version: 1.1.5
+ */
+
 public class SystemOneContentAdapter extends BaseAdapter {
 
     private List<SystemOneBean.DataBean> systemList;

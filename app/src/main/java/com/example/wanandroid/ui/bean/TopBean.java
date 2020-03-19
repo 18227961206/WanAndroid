@@ -2,6 +2,15 @@ package com.example.wanandroid.ui.bean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: TopBean
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:56
+ * @Description: 使用置顶数据
+ * @version: 1.1.5
+ */
+
 public class TopBean {
 
     /**

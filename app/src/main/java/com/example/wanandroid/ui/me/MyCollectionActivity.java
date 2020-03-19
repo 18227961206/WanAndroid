@@ -33,6 +33,15 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MyCollectionActivity
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:47
+ * @Description: 我的收藏
+ * @version: 1.1.5
+ */
+
 public class MyCollectionActivity extends AppCompatActivity {
 
     private ImageView goBack;

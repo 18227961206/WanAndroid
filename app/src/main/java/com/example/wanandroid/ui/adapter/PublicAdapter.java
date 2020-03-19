@@ -31,6 +31,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: PublicAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:58
+ * @Description: 全局公共文章列表数据适配
+ * @version: 1.1.5
+ */
+
 public class PublicAdapter extends BaseAdapter {
 
     private Context mContext;

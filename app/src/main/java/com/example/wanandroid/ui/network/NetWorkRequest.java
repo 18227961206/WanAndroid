@@ -29,6 +29,15 @@ import okhttp3.Response;
 
 import static android.content.Context.MODE_PRIVATE;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: NetWorkRequest
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:43
+ * @Description: Okhttp请求
+ * @version: 1.1.5
+ */
+
 public class NetWorkRequest {
     private static Handler mHandler = new Handler(Looper.getMainLooper());
     private static OkHttpClient okHttpClient = new OkHttpClient.Builder()

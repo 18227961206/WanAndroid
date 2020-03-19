@@ -10,6 +10,15 @@ import android.widget.Toast;
 
 import com.example.wanandroid.R;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: MyToast
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 10:33
+ * @Description: 全局Toast
+ * @version: 1.1.5
+ */
+
 public class MyToast {
     public static void myToast(Context context, String content) {
         Toast toast = new Toast(context);

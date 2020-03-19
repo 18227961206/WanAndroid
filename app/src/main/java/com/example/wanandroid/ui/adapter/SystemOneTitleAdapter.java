@@ -12,6 +12,15 @@ import com.example.wanandroid.ui.bean.SystemOneBean;
 
 import java.util.List;
 
+/**
+ * @Copyright (C), @2020 小天狼星
+ * @ClassName: SystemOneTitleAdapter
+ * @Author: 小天狼星
+ * @Date: 2020/3/19 11:01
+ * @Description: 体系左侧数据适配
+ * @version: 1.1.5
+ */
+
 public class SystemOneTitleAdapter extends BaseAdapter {
 
     private List<SystemOneBean.DataBean> systemList;
